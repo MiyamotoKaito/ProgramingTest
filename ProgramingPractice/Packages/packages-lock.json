@@ -1,12 +1,5 @@
 {
   "dependencies": {
-    "com.cysharp.csprojmodifier": {
-      "version": "https://github.com/Cysharp/CsprojModifier.git?path=src/CsprojModifier/Assets/CsprojModifier",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "3c9be1a827ce7a2e0d9518e34905fc2fc7a6d5df"
-    },
     "com.unity.ai.navigation": {
       "version": "2.0.10",
       "depth": 0,
