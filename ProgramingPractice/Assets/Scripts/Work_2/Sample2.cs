@@ -76,6 +76,10 @@ public class Sample2 : MonoBehaviour
 
                 int distance = Mathf.Abs(x - currentPos.x) + Mathf.Abs(y - currentPos.y);
 
+                if (distance == 1)
+                {
+                    return (x, y);
+                }
                 if (distance < minDistance)
                 {
                     minDistance = distance;
